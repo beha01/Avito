@@ -1,0 +1,546 @@
+/*////////// Начало обнуление ///////////*/
+
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*:before,*:after{
+   -moz-box-align: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+/*Конец обнуление */
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.block{
+   max-width: 2100px;
+   background: #292929;
+   height: 44px;
+   display: flex;
+}
+
+.block__body{
+   max-width: 1848px;
+   height: 100%;
+   margin: 0 auto;
+}
+
+.block__body1{
+   margin: 0px 15px;
+}
+
+
+.hedar {
+   margin-bottom: 30px;
+}
+
+.hedar__contener{
+   max-width: 1848px;
+   display: flex;
+   margin: 0 auto;
+   align-items: center;
+}
+
+.login {
+   display: flex;
+   align-items: center;
+   margin-left: 628px;
+   padding: 0px 15px;
+}
+.add {
+   background: rgb(55, 172, 250);
+   padding: 7px 5px;
+   border-radius: 3px;
+}
+
+.hedar a {
+   color: aliceblue;
+   margin: 10px;
+   font-weight: 500;
+   font-size: 14px;
+   
+}
+
+.hedar__top a:hover{
+color: crimson;
+}
+
+
+
+.add:hover{
+   background: rgb(19, 150, 238);
+}
+
+.imge:hover{
+   background: rgb(107, 107, 107);
+   border-radius: 40px;
+}
+
+.logo__hedar  {
+   margin-bottom: 10px;
+}
+.body__hedar a {
+   position: relative;
+   top: 17px;
+   padding: 9px;
+   font-size: 14px;
+   color: black;
+}
+
+.body__hedar a:hover{
+   color: crimson;
+}
+
+.bobik__body {
+   display: flex;
+   border-radius: 5px;
+   max-width: 1348px;
+   margin: 0 auto;
+}
+.bum  {
+   border: 2px solid #25afff;
+   padding: 8px 28px;
+   border-radius: 5px 0px 0px 5px;
+   margin-left: -7px;
+   position: relative;
+   left: 4px;
+}
+   
+.bum1{
+   border: 2px solid #25afff;
+   padding: 7px 58px;
+   margin-left: -7px;
+}
+.bum2{
+  border: 2px solid #25afff;
+   padding: 7px 38px;
+   margin-left: -2px;
+}
+.knopka {
+  padding: 10px 34px;
+  background: #25afff;
+  color: white;
+  position: relative;
+  border-radius: 0px 5px 5px 0px;
+ }
+
+ .poisk{
+   border: 2px solid #25afff;
+   padding: 8px 180px;
+   position: relative;
+   bottom: 0.51px;
+   
+ }
+
+ .bobik4{
+    margin: 7px 0px 0px -6px;
+    position: relative;
+    left: 6px;
+    display: flex;
+    padding-bottom: 17px;
+ }
+
+ .bobik4 p{
+    margin: 0px 5px;
+ }
+
+ .b1{
+    margin-left: 20px;
+    opacity: 0.50;
+ }
+
+ .b2{
+   margin-left: 20px;
+   opacity: 0.50;
+}
+
+.body__cotegorii {
+   display: flex;
+   margin: 0 auto;
+   padding: 20px 25px 25px 0px;
+   position: relative;
+   right: 10px;
+   color: #25afff;
+}
+
+.body__cotegorii li a:hover{
+   color: #f71b47;
+}
+
+.cotegorii2 {
+   margin: 0px 23px;
+}
+.cotegorii3 {
+   margin: 0px 23px;
+}
+
+.body__cotegorii li a{
+   margin: 8px;
+   color: #25afff;
+   line-height: 1.8;
+}
+.hh{
+   font-weight: 700;
+   margin: 25px 0px;
+   position: relative;
+   top: 5px;
+}
+
+.block__right {
+   display: flex;
+   justify-content: flex-end;
+   position: relative;
+   bottom: 1230px;
+   right: 45px;
+}
+
+.right__body img{
+   margin: 0 auto;
+   position: relative;
+   top: 21px;
+   right: 40px;
+
+}
+
+.right__body h4{
+   color: black;
+   font-weight: bold;
+   line-height: 23px;
+
+}
+
+.right__body p{
+   color: #999 ;
+}
+
+.right__body ul :hover{
+   color: red;
+}
+
+.right__body h3{
+   position: relative;
+   right: 40px;
+}
+
+.liniya{
+   border-top: 1px solid #999;
+   padding: 0px 150px;
+   position: relative;
+   right: 40px;
+   opacity: 0.20;
+   margin: 30px 0px 30px 0px;
+}
+
+.foter{
+   color: black;
+}
+
+.foter{
+   position: relative;
+   bottom: 5px;
+}
+
+.bobik21 a:hover{
+   color:red;
+}
+
+.bobik21 a{
+   color: black;
+}
+
+.bobik21{
+   color: black;
+   display: flex;
+   flex-direction: column;
+   line-height: 1.7;
+   position: relative;
+   top: 15px;
+}
+
+.b1{
+   position: relative;
+   right: 20px;
+   color: #000;
+   line-height: 1.3;
+   text-decoration: underline;
+
+}
+
+.story{
+   position: relative;
+   right: 25px;
+}
+.body__story {
+   display: flex;
+   margin: 20px;
+}
+
+.story img {
+   width: 141px;
+   height: 188px;
+   border-radius: 7px;
+   margin: 0px 5px;
+}
+
+.story li{
+   display: inline-block;
+   margin: 0px 3px;
+   border-radius: 4px;
+}
+
+.story img::after{
+   content: '';
+   position: absolute;
+   padding: 5px;
+   border-radius: 50%;
+   background: #f71b47;
+   border: 3px solid #fff;
+}
+
+.title1{
+   position: absolute;
+   top: 120px;
+   left: 35px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+
+}
+
+.title2{
+   position: absolute;
+   top: 120px;
+   left: 185px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+
+}
+.title3{
+   position: absolute;
+   top: 135px;
+   left: 336px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+
+}
+
+.title4{
+   position: absolute;
+   top: 135px;
+   left: 486px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+
+}
+
+.title5{
+   position: absolute;
+   top: 120px;
+   left: 635px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+
+}
+
+.title6{
+   position: absolute;
+   top: 138px;
+   left: 790px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+
+}
+
+.title1::after{
+   position: absolute;
+   content: '';
+   padding: 4px;
+   left: 118px;
+   bottom: 163px;
+   border-radius: 50%;
+   background: #f71b47;
+   border: 3px solid #fff;
+}
+
+.title2::after{
+   position: absolute;
+   content: '';
+   padding: 4px;
+   left: 122px;
+   bottom: 163px;
+   border-radius: 50%;
+   background: #f71b47;
+   border: 3px solid #fff;
+}
+
+.title3::after{
+   position: absolute;
+   content: '';
+   padding: 4px;
+   left: 123px;
+   bottom: 160px;
+   border-radius: 50%;
+   background: #f71b47;
+   border: 3px solid #fff;
+}
+
+.title4::after{
+   position: absolute;
+   content: '';
+   padding: 4px;
+   left: 125px;
+   bottom: 161px;
+   border-radius: 50%;
+   background: #f71b47;
+   border: 3px solid #fff;
+}
+
+.title5::after{
+   position: absolute;
+   content: '';
+   padding: 4px;
+   left: 125px;
+   bottom: 164px;
+   border-radius: 50%;
+   background: #f71b47;
+   border: 3px solid #fff;
+}
+
+.title6::after{
+   position: absolute;
+   content: '';
+   padding: 95px 30px;
+   left: 85px;
+   bottom: 25px;
+   background: rgb(255, 255, 255);
+}
+
+.strelka{
+   position: relative;
+   background: rgb(255, 255, 255);
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   left: 60px;
+   bottom: 90px;
+   z-index: 4;
+   box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.329);
+}
+
+.strelka img{
+   width: 23px;
+   height: 23px;
+   position: relative;
+   top: 8px;
+   left: 4px;
+}
+
+.moy{
+   display: flex;
+   justify-content: flex-end;
+   margin: 0px px;
+   position: relative;
+   right: 145px;
+   bottom: 1150px;
+}
+
+
+.moy1 {
+position: relative;
+bottom: 35px;
+
+}
+.moy2 {
+   position: relative;
+   bottom: 75px;
+}
+.moy3 {
+   position: relative;
+   bottom: 110px;
+}
+
+.moy h4{
+   font-size: 16px;
+   position: relative;
+   bottom: -10px;
+}
+
+.moy__body h5{
+   color: #25afff;
+   position: relative;
+   left: 75px;
+   top: 60px;
+   font-weight: 800;
+   background: url(../img/obyavlenie/dilak.svg)210px 5px no-repeat;
+   padding: 5px 40px;
+}
+
+.moy__body p{
+   position: relative;
+   left: 115px;
+   top: 60px;
+   line-height: 20px;
+
+}
+
+.tovari__body {
+   display: flex;
+}
+
+.tovari__body img{
+   margin: 0px 10px 0px 0px;
+}
+.tovari__body h5{
+   display: block;
+   color: #25afff;
+   position: relative;
+   margin-top: 3px;
+   font-weight: 800;
+   background: url(../img/obyavlenie/dilak.svg)190px 5px no-repeat;
+   padding: 5px 0px;
+   font-size: 14px;
+}
+
+.tovari__body span{
+   font-weight: 800;
+}
+
+.tovari__body p{
+  margin-bottom: 40px;
+  color: #999;
+  line-height: 1.4;
+}
